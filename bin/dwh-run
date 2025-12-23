@@ -1,0 +1,15 @@
+\
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Run an existing workspace without wizard
+WS="${1:-}"
+if [[ -z "${WS// }" ]]; then
+  echo "Usage: dwh-run /path/to/workspace"
+  exit 1
+fi
+if [[ ! -f "$WS/run_all.sh" ]]; then
+  echo "❌ Not a valid workspace (missing run_all.sh): $WS"
+  exit 1
+fi
+bash "$WS/run_all.sh"
