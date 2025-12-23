@@ -15,7 +15,7 @@ This project wraps your existing **generate.sh / queries.sh / domains.sh / conso
 ## Quick start
 
 ```bash
-cd dwh_exporter
+cd mysql_exporter
 chmod +x bin/dwh-wizard
 ./bin/dwh-wizard
 ```
