@@ -1,4 +1,4 @@
-# DWH Export Wizard (CLI Wizard for Linux)
+# Mysql Export Wizard (CLI Wizard for Linux)
 
 Author: Kheireddine BELAID  
 GitHub: https://github.com/sysco999  
